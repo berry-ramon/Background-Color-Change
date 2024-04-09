@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.change{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+.change:hover{
+    border: 2px solid rgb(5, 100, 112);
+    cursor: pointer;
+}
